@@ -20,6 +20,9 @@
             color: red;
             text-shadow: 2px 2px 5px white;
         }
+        .gif-container {
+            margin-top: 20px;
+        }
         .buttons {
             margin-top: 20px;
             position: relative;
@@ -67,12 +70,15 @@
         }
         
         function showLove() {
-            document.body.innerHTML = "<h1> Happy Valentine's Day! ❤️</h1>";
+            document.body.innerHTML = "<h1>Yay! Happy Valentine's Day! ❤️</h1><div class='gif-container'><img src='https://media.tenor.com/blFl5tbxVp8AAAAM/squeeze-hug.gif' alt='Love Gif'></div>";
         }
     </script>
 </head>
 <body>
     <h1>Will you be my Valentine? 💘</h1>
+    <div class="gif-container">
+        <img src="https://media.giphy.com/media/l4FGI8GoTL7N4DsyI/giphy.gif" alt="Cute Valentine Gif">
+    </div>
     <div class="buttons">
         <button id="yes" onclick="showLove()">Yes ❤️</button>
         <button id="no" onclick="enlargeYesButton()">No 💔</button>
